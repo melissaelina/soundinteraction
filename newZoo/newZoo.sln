@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio for Mac
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VuforiaScripts", "VuforiaScripts.csproj", "{8F543668-78A0-BE55-4897-31D1C68820FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VuforiaEditorScripts", "VuforiaEditorScripts.csproj", "{BAA6C44E-ED76-DD90-AD2B-BDEB407BFA32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F543668-78A0-BE55-4897-31D1C68820FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F543668-78A0-BE55-4897-31D1C68820FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F543668-78A0-BE55-4897-31D1C68820FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F543668-78A0-BE55-4897-31D1C68820FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAA6C44E-ED76-DD90-AD2B-BDEB407BFA32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAA6C44E-ED76-DD90-AD2B-BDEB407BFA32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAA6C44E-ED76-DD90-AD2B-BDEB407BFA32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAA6C44E-ED76-DD90-AD2B-BDEB407BFA32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
