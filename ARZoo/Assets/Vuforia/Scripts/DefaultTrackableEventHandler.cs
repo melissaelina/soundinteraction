@@ -62,12 +62,12 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
             OnTrackingFound();
         }
-        else if (previousStatus == TrackableBehaviour.Status.TRACKED &&
+        /*else if (previousStatus == TrackableBehaviour.Status.TRACKED &&
                  newStatus == TrackableBehaviour.Status.NO_POSE)
         {
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
             OnTrackingLost();
-        }
+        }*/
         else
         {
             // For combo of previousStatus=UNKNOWN + newStatus=UNKNOWN|NOT_FOUND
