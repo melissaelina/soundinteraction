@@ -346,10 +346,10 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
+    scrollPos: {x: 0, y: 71}
     m_SelectedIDs: 7a2a0000
     m_LastClickedID: 10874
-    m_ExpandedIDs: 00000000fc27000064280000f4280000082900007a2a0000162b000000ca9a3b
+    m_ExpandedIDs: 00000000fc27000064280000f428000008290000242a00007a2a0000162b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -496,9 +496,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: c82b0000
-      m_LastClickedID: 11208
-      m_ExpandedIDs: c2fbffff
+      m_SelectedIDs: ae2b0000
+      m_LastClickedID: 11182
+      m_ExpandedIDs: a2f3ffff8cf5ffffc0fbffffc2fbffff962b0000c82b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -588,9 +588,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.084116824, y: 0.9060447, z: -0.21483141, w: -0.35476014}
   m_Size:
-    m_Target: 1.2512505
+    m_Target: 0.6512505
     speed: 2
-    m_Value: 1.2512505
+    m_Value: 0.6512505
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -704,7 +704,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 515
+    y: 514
     width: 982
     height: 266
   m_PersistentViewDataDictionary: {fileID: 0}
