@@ -60,16 +60,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\audio.cs" />
     <Compile Include="Assets\audiotrigger.cs" />
+    <Compile Include="Assets\chicken_sound.cs" />
     <Compile Include="Assets\chickentrigger.cs" />
+    <Compile Include="Assets\cowinfo.cs" />
     <Compile Include="Assets\cowtrigger.cs" />
+    <Compile Include="Assets\sheep_sound.cs" />
     <Compile Include="Assets\sheeptrigger.cs" />
+    <Compile Include="Assets\tiger_sound.cs" />
     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
     <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
     <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
+    <None Include="Assets\StreamingAssets\Vuforia\ljud.xml" />
     <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
     <None Include="Assets\Vuforia\Shaders\OutlineOpaque.shader" />
-    <None Include="Assets\StreamingAssets\Vuforia\ljud.xml" />
     <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
     <None Include="Assets\Vuforia\Databases\Emulator\VuforiaEmulator.xml" />
     <None Include="Assets\VertexColorFarmAnimals\Shaders\VertexColorUnlit.shader" />
