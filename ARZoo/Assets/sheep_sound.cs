@@ -21,13 +21,44 @@ public class sheep_sound : MonoBehaviour
     	{
     		Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
     		RaycastHit Hit;
+    		bool stage= true;
     		if (Physics.Raycast(ray, out Hit)){
     			btnName = Hit.transform.name;
     			switch(btnName)
     			{
     				case "SheepWhite":
-    					myAudioSource.clip = aClips[0];
-    					myAudioSource.Play();
+    					
+    					//myAudioSource.clip = aClips[0];
+    					//myAudioSource.Play();
+
+    					if (myAudioSource.isPlaying)
+    					{
+        					//myAudioSource.clip = aClips[0];
+        					myAudioSource.Stop();
+        					break;
+     					}
+     					else
+     					{
+     						myAudioSource.clip = aClips[0];
+    						myAudioSource.Play();
+    						break;
+     					}
+
+    					/*if (stage == true)
+    					{
+							myAudioSource.clip = aClips[0];
+    						myAudioSource.Play();
+    						stage = false;
+    						break;
+    					}
+    					else
+    					{
+							//myAudioSource.clip = aClips[0];
+    						myAudioSource.Stop();
+    						stage = true;
+    						break;
+    					}*/
+    					
     					break;
     				default:
     					break;

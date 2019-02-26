@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-/Users/melissaobrou/Downloads/3ARzootest.apk
+/Users/melissaobrou/Downloads/7ARzootest.apk
 SceneListBegin?
 Assets/tiger2.unity
 SceneListEnd?
