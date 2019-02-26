@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//TIGER INFO
+
 public class audiotrigger : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -16,7 +18,7 @@ public class audiotrigger : MonoBehaviour
          //if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began){
 
         
-        if(Input.GetMouseButtonDown(0))
-         {gameObject.GetComponent<AudioSource>().Play();}
+        //if(Input.GetMouseButtonDown(0))
+        // {gameObject.GetComponent<AudioSource>().Play();}
     }
 }

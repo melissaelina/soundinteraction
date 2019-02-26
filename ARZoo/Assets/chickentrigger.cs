@@ -16,7 +16,7 @@ public class chickentrigger : MonoBehaviour
          //if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began){
 
         
-        if(Input.GetMouseButtonDown(0))
-         {gameObject.GetComponent<AudioSource>().Play();}
+        //if(Input.GetMouseButtonDown(0))
+         //{gameObject.GetComponent<AudioSource>().Play();}
     }
 }

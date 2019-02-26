@@ -64,8 +64,10 @@
     <Compile Include="Assets\audiotrigger.cs" />
     <Compile Include="Assets\chicken_sound.cs" />
     <Compile Include="Assets\chickentrigger.cs" />
+    <Compile Include="Assets\clicking.cs" />
     <Compile Include="Assets\cowinfo.cs" />
     <Compile Include="Assets\cowtrigger.cs" />
+    <Compile Include="Assets\foodcourt_sound.cs" />
     <Compile Include="Assets\sheep_sound.cs" />
     <Compile Include="Assets\sheeptrigger.cs" />
     <Compile Include="Assets\tiger_sound.cs" />
