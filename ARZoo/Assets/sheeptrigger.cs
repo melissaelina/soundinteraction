@@ -9,7 +9,7 @@ public class sheeptrigger : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //gameObject.GetComponent<AudioSource>().Play();
+        gameObject.GetComponent<AudioSource>().Play();
        // audioClip = Resources.Load("sheep_info") as AudioClip;
         //audioSource = gameObject.AddComponent<AudioSource>();
     }
@@ -18,9 +18,10 @@ public class sheeptrigger : MonoBehaviour
         {
     //float audioLevel = collision.relativeVelocity.magnitude / 10.0f;
     //audioSource.PlayOneShot(audioClip);
-    gameObject.GetComponent<AudioSource>().Play();
+    //gameObject.GetComponent<AudioSource>().Play();
         }
 
+    
     void OnCollisionEnter ()  //Plays Sound Whenever collision detected
      {
          //gameObject.GetComponent<AudioSource>().Play();

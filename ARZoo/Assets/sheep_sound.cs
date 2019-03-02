@@ -10,7 +10,7 @@ public class sheep_sound : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        gameObject.GetComponent<AudioSource>().Play();
+        //gameObject.GetComponent<AudioSource>().Play();
         myAudioSource = GetComponent<AudioSource>();
     }
 
@@ -21,7 +21,7 @@ public class sheep_sound : MonoBehaviour
     	{
     		Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
     		RaycastHit Hit;
-    		bool stage= true;
+    		//bool stage= true;
     		if (Physics.Raycast(ray, out Hit)){
     			btnName = Hit.transform.name;
     			switch(btnName)
@@ -59,7 +59,10 @@ public class sheep_sound : MonoBehaviour
     						break;
     					}*/
     					
-    					break;
+    					//break;
+
+    				
+
     				default:
     					break;
 

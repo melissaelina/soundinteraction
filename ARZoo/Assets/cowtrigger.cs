@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class cowtrigger : MonoBehaviour
 {
+    AudioClip audioClip;
+    AudioSource audioSource;
     // Start is called before the first frame update
     void Start()
     {
-        //gameObject.GetComponent<AudioSource>().Play();
+        gameObject.GetComponent<AudioSource>().Play();
     }
 
     // Update is called once per frame

@@ -5,6 +5,9 @@ using UnityEngine;
 //FOODCOURT
 public class audio : MonoBehaviour
 {
+    
+    AudioClip audioClip;
+    AudioSource audioSource;
     // Start is called before the first frame update
     void Start()
     {
